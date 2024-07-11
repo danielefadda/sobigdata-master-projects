@@ -306,3 +306,49 @@ bundle exec jekyll serve
 ```
 
 **aprite il browser all’indirizzo [http://127.0.0.1:4000](http://127.0.0.1:4000)**
+
+---
+# Come pubblicare il sito su GitHub Pages
+
+Per pubblicare il sito su GitHub Pages, è necessario creare un repository su GitHub con il nome **username.github.io**, dove **username** è il vostro nome utente GitHub.
+
+Una volta creato il repository e clonato il progetto, editate il file di configurazione `_build_config.yml` con i vostri dati.
+
+Per pubblicare il sito, eseguite i seguenti comandi:
+
+```bash
+url: "https://nomeutente.github.io" # ad esempio "https://danielefadda.github.io"
+baseurl: "/nome-del-repository/" # ad esempio "/g0-2024-website/"
+destination: "docs"
+```
+Andate sul terminale nella cartella del progetto e digitate:
+
+```bash
+bundle exec jekyll build --config _config.yml,_build_config.yml
+```
+
+A questo punto potete fare il commit e il push del progetto sul vostro repository GitHub. Nel momento in cui lanciate il comando qui sopra si creerà una cartella **docs** con il sito pronto per essere pubblicato.
+La definizione di **baseurl** è fondamentale per il corretto funzionamento del sito su GitHub Pages. Ogni qualvolta si voglia scrivere un link assoluto, è necessario utilizzare la variabile **site.baseurl** nell'indirizzo.
+
+Per esempio, per linkare la pagina **about** si dovrà scrivere:
+
+{% raw %}
+```html
+<a href="{{ site.baseurl }}/about">About</a>
+```
+{% endraw %}
+
+### Configurazione di GitHub Pages
+
+Per pubblicare il sito su GitHub Pages, è necessario configurare il repository.
+
+Andate su **Settings** e scorrete fino a ** Pages** nella barra laterale.
+
+Source: **deploy from a branch**. Selezionate il branch **main** e la cartella **/docs**.
+
+A questo punto il vostro sito sarà visibile all'indirizzo
+
+`https://username.github.io/nome-del-repository/`
+
+Ad esempio: [https://danielefadda.github.io/sbd-master-template/](https://danielefadda.github.io/sbd-master-template/)
+
