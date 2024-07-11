@@ -9,14 +9,6 @@ header_title: "Atlante delle stragi nazifasciste"
 vega: true
 ---
 
-[//]: # (variables section)
-
-
-{% capture stragi_all %}
-    {% include_relative snippets/mappa-stragi-intro.md %}
-{% endcapture %}
-
-
 [//]: # (Introduction section)
 {% capture introduction_content %}
     {% include_relative snippets/introduction.md %}
