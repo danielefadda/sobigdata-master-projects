@@ -4,9 +4,10 @@
 
 layout: home
 title: "Home"
+show_sidetoc: true
 subtitle: "LBDAI - SoBigData Master course 2024"
 header_type: base #base, post, hero,image, splash
-header_img: assets/images/header.png
+header_img: assets/images/header.svg
 header_title: "SoBigData Master projects"
 ---
 <div class="container py-1">
@@ -22,7 +23,7 @@ header_title: "SoBigData Master projects"
             <a href="{{image.path}}" target="_blank">
                 <div class="row py-3 my-3 project" >
                         <div class="col-md-4">
-                            <div class="project-img"><img src="{{site.baseurl}}{{ image.img_url}}" alt="{{ image.name }}" style="width:300px"></div>
+                            <div class="project-img"><img src="{{site.baseurl}}{{ image.img_url}}" alt="{{ image.name }}" style="width:100%"></div>
                         </div>
                         <div class="col-md-8">
                             <div class="project-body">

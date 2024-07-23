@@ -131,12 +131,12 @@ ul {
 }
 
 .project:hover {
-  border: 1px solid black;
+  border: 1px solid #de1f36;
 }
 
 #projects-container a:hover {
   text-decoration: none;
-  color: #de1f36;
+  color: #07286E;
 }
 
 #projects-container h5 {
@@ -146,6 +146,25 @@ ul {
 
 .project {
   background-color: whitesmoke;
+}
+
+.nav-item:last-child {
+  background-color: #de1f36;
+  border-radius: 0;
+  padding-inline-start: 0.4em;
+  padding-inline-end: 0.4em;
+}
+
+.header-chulapa h1 {
+  margin-top: 2rem;
+}
+
+.chulapa-subtitle {
+  color: #de1f36 !important;
+}
+
+h3 {
+  color: #de1f36;
 }
 
 /*# sourceMappingURL=custom.css.map */

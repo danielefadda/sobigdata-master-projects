@@ -60,8 +60,12 @@ googlefonts:
 chulapa-skin:
   skin:  "graymor" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
   vars:
-    body-color: "#fff"
-    body-bg: "#07286E"
+    body-color: "#07286E"
+    body-bg: "#fff"
+    footer-chulapa-bg-color: "#07286E"
+    footer-chulapa-text-color: "#fff"
+    navbar-chulapa-bg-color: "#07286E"
+    navbar-chulapa-text-color: "#fff"
     primary: "#07286E"
     # font-family-base: "Comic Neue"
     headings-font-family: "Rajdhani"
