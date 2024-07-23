@@ -167,4 +167,13 @@ h3 {
   color: #de1f36;
 }
 
+@media (max-width: 767px) {
+  #projects-container h5 {
+    margin-top: 2rem;
+  }
+  #projects-container img {
+    max-width: 100%;
+  }
+}
+
 /*# sourceMappingURL=custom.css.map */
