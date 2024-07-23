@@ -9,28 +9,15 @@ header_type: base #base, post, hero,image, splash
 header_img: assets/images/header.png
 header_title: "SoBigData Master projects"
 ---
-
 <div class="container py-1">
-    <div class="row">
+<div class="row">
         <div class="col-md-12">
             <p class="lead" style="text-align:justify">The SoBigData Master projects aim to teach students how to observe and represent phenomena from various perspectives, drawing on the knowledge gained from different master's courses: from data collection to the final delivery. The students will employ in the project methods, techniques and tools studied in the other modules. The duration of this module, differently from the others, will span across several months until the end of the lectures when the results of the project will be presented in front of a committee.</p>
-            <hr>
-            <h3>Courses involved</h3>
-            <ul>
-                <li>BDSCCS – Big Data Sources, crowdsourcing, crowdsensing</li>
-                <li>DMML – Data Mining and Machine Learning</li>
-                <li>IR – Information Retrieval</li>
-                <li>DDI – Data Driven Innovation</li>
-                <li>DVDJ – Data Visualization and Data Journalism</li>
-                <li>TAWM – Text Analysis & Web Mining</li>
-            </ul>
-            <hr>
         </div>
     </div>
 </div>
 
 <div class="container py-3" id="projects-container">
-    <h3>(Big) Projects</h3>
         {% for image in site.data.home-cards %}
             <a href="{{site.baseurl}}{{ image.path}}" target="_blank">
                 <div class="row py-3 my-3 project" >
@@ -61,6 +48,19 @@ header_title: "SoBigData Master projects"
 </div>
 
 
-<style>
-
-</style>
+<div class="container py-1">
+    <div class="row">
+        <div class="col-md-12">
+            <hr>
+            <h3>Courses involved</h3>
+            <ul>
+                <li>BDSCCS – Big Data Sources, crowdsourcing, crowdsensing</li>
+                <li>DMML – Data Mining and Machine Learning</li>
+                <li>IR – Information Retrieval</li>
+                <li>DDI – Data Driven Innovation</li>
+                <li>DVDJ – Data Visualization and Data Journalism</li>
+                <li>TAWM – Text Analysis & Web Mining</li>
+            </ul>
+        </div>
+    </div>
+</div>
