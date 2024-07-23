@@ -118,4 +118,34 @@ iframe {
   transform: scale(1, 1) !important;
 }
 
+.navbar {
+  border-bottom: 1px solid white;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.project {
+  border: 1px solid lightgrey;
+}
+
+.project:hover {
+  border: 1px solid black;
+}
+
+#projects-container a:hover {
+  text-decoration: none;
+  color: #de1f36;
+}
+
+#projects-container h5 {
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.project {
+  background-color: whitesmoke;
+}
+
 /*# sourceMappingURL=custom.css.map */

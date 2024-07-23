@@ -1,1 +1,1 @@
-Sitemap: https://danielefadda.github.io/sbd-master-template/sitemap.xml
+Sitemap: https://danielefadda.github.io/sbd-master-projects/sitemap.xml

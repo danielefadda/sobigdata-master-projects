@@ -19,8 +19,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Progettone Template"
-subtitle: "un template per i progetti del master SoBigData"
+title: "SoBigData Master Projects"
+subtitle: "LBDAI - SoBigData Master course results"
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -31,10 +31,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 # Riportare il github del gruppo di progetto e quello del sito web (se differente).
 # Tali informazioni appariranno nel Footer del sito.
 github_repo:
-  - name: "Group 0 - Project repository"
-    url: "https://github.com/sobigdata-master/progettone-template"
-  - name: "Group 0 - Website repository"
-    url: "https://github.com/sobigdata-master/progettone-template"
+  - name: "SoBigData LBDAI projects"
+    url: "https://github.com/danielefadda/sobigdata-master-projects"
 
 
 
@@ -45,52 +43,28 @@ github_repo:
 navbar:
   style :  dual #non modificare
   brand: # è il titolo del sito e funziona da bottone (tipicamente per la homepage).
-    title :  "Progettone Website Guide"
+    title :  "LBDAI - SoBigData Master Projects"
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
-    - title: Bootstrap
-      url: /bootstrap
-    - title: Jekyll
-      url: /jekyll-ssg
-    - title: Charts
-      url: /charts
-    - title: Folium
-      url: /folium-map
-    - title: Write first #Label
-      child:
-        - title: markdown cheatsheet #Label
-          url: /markdown  #url
-        - title: kramdown cheatsheet #Label
-          url: /kramdown #url
-    - title: One page demo
-      child:
-        - title: Demo
-          url: /single
-        - title: "Sezione 1" #Label
-          url: /single#sezione-1 #url
-        - title: "Sezione 1.1" #Label
-          url: /single#sezione-11 #url
-        - title: "Sezione 1.2" #Label
-          url: /single#sezione-12 #url
-        - title: "Gallerie" #Label
-          url: /single#galleria #url
-        - title: "Mappa delle stragi" #Label
-          url: /single#mappa-delle-stragi #url
+    - title: Master website
+      url: https://masterbigdata.it/
 
 
 
 googlefonts:
-  - url: "https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+  - url: "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
   - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
   - url: "https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap"
 
 chulapa-skin:
   skin:  "graymor" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
   vars:
-    body-bg: "#fbf1ed"
+    body-color: "#fff"
+    body-bg: "#07286E"
+    primary: "#07286E"
     # font-family-base: "Comic Neue"
-    # headings-font-family: "Lekton"
+    headings-font-family: "Rajdhani"
 
 
 #chulapa-skin:

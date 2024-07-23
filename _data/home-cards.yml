@@ -1,16 +1,39 @@
-- name: Bootstrap
-  url:  "assets/images/bootstrap_t.png"
-  description: "Una panoramica di Bootstrap"
-  path: "bootstrap"
-- name: Jekyll
-  url:  "assets/images/jekyll_t.png"
-  description: "Una panoramica di Jekyll"
-  path: "jekyll-ssg"
-- name: Altair Charts
-  url:  "assets/images/altair-gallery_t.png"
-  description: "Come esportare grafici con Altair"
-  path: "charts"
-- name: Markdown
-  url:  "assets/images/markdown_t.png"
-  description: "Cheatsheet per Markdown e Kramdown"
-  path: "markdown"
+- name: "Spot TV"
+  group: 1
+  img_url:  "assets/images/g1_vangogh.jpg"
+  description: "La comunicazione pubblicitaria televisiva dal 1980 a oggi"
+  path: "https://hypozeuxis.github.io/g1-2024-website/"
+  students: ["Oltiana Asllani","Giorgio Bellante","Denise Botrini","Giorgia De Re","Axel Perini","Dimitri Viccari"]
+- name: "Podcast"
+  group: 2
+  img_url:  "assets/images/g1_vangogh.jpg"
+  description: "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna"
+  path: "https://mbd2.github.io/g2-2024-website/"
+  students: [ "Nome Cognome","Nome Cognome","Nome Cognome","Nome Cognome","Nome Cognome","Nome Cognome" ]
+- name: "AvvoChat"
+  group: 3
+  img_url:  "assets/images/g1_vangogh.jpg"
+  description: "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna"
+  students: [ "Nome Cognome","Nome Cognome","Nome Cognome","Nome Cognome","Nome Cognome","Nome Cognome" ]
+- name: "Nasci ingegnere muori data scientist"
+  group: 5
+  img_url:  "assets/images/linkedin.jpg"
+  description: "Analisi delle offerte di lavoro del mondo tech su Linkedin"
+  path: "https://jacopodellabartola.github.io/g5-2024-website/"
+  students: ["Jacopo della Bartola","Giulio Faraoni","Donatella Mauro","Martina Podestà","Simone Proto","Giulia Segurini"]
+- name: "Agricoltura"
+  group: 6
+  img_url:  "assets/images/g1_vangogh.jpg"
+  description: "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna"
+  students: [ "Nome Cognome","Nome Cognome","Nome Cognome","Nome Cognome","Nome Cognome","Nome Cognome" ]
+- name: "Calcio"
+  group: 7
+  img_url:  "assets/images/g1_vangogh.jpg"
+  description: "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna"
+  students: [ "Nome Cognome","Nome Cognome","Nome Cognome","Nome Cognome","Nome Cognome","Nome Cognome" ]
+- name: "CraveIt"
+  group: 8
+  img_url:  "assets/images/pasta.jpg"
+  description: "What's the best carbonara in Rome?"
+  path: "https://andrevitali.github.io/g8-2024-website/"
+  students: ["Luca Antonini","Francesco Peria","Ludovica Santinelli","Maria Paola Sforza Fogliani","Andrea Vitali"]

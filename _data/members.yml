@@ -1,23 +1,18 @@
-- name: Chris Wanstrath
-  github: defunkt
-
-- name: Steve Francia
-  github: spf13
-
-- name: Liu Aiping
-  github: liuaiping
-
-- name: Tom Preston-Werner
-  github: mojombo
-
-- name: Parker Moore
-  github: parkr
-
-- name: Ben Balter
-  github: benbalter
-
-- name: Jordon Bedwell
-  github: envygeeks
-
-- name: Matt Rogers
-  github: mattrogers
+- name: Daniele Fadda
+  github: https://kdd.isti.cnr.it/people/fadda-daniele
+  role: teacher
+- name: Paolo Ferragina
+  github: https://it.wikipedia.org/wiki/Paolo_Ferragina
+  role: teacher
+- name: Riccardo Guidotti
+  github: https://kdd.isti.cnr.it/people/guidotti-riccardo
+  role: teacher
+- name: Anna Monreale
+  github: https://kdd.isti.cnr.it/people/monreale-anna
+  role: teacher
+- name: Roberto Trasarti
+  github: https://kdd.isti.cnr.it/people/trasarti-roberto
+  role: teacher
+- name: Valentina Pansanella
+  github: https://kdd.isti.cnr.it/people/pansanella-valentina
+  role: tutor
