@@ -19,7 +19,7 @@ header_title: "SoBigData Master projects"
 
 <div class="container py-3" id="projects-container">
         {% for image in site.data.home-cards %}
-            <a href="{{site.baseurl}}{{ image.path}}" target="_blank">
+            <a href="{{image.path}}" target="_blank">
                 <div class="row py-3 my-3 project" >
                         <div class="col-md-4">
                             <div class="project-img"><img src="{{site.baseurl}}{{ image.img_url}}" alt="{{ image.name }}" style="width:300px"></div>
