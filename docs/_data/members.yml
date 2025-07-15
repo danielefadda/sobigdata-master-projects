@@ -13,6 +13,10 @@
 - name: Roberto Trasarti
   github: https://kdd.isti.cnr.it/people/trasarti-roberto
   role: teacher
-- name: Valentina Pansanella
-  github: https://kdd.isti.cnr.it/people/pansanella-valentina
+- name: Eleonora Cappuccio
+  github: https://kdd.isti.cnr.it/people/cappuccio-eleonora
   role: tutor
+- name: Andrea Pugnana
+  github: https://kdd.isti.cnr.it/people/pugnana-andrea
+  role: tutor
+
