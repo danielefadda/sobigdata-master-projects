@@ -41,6 +41,8 @@ navbar:
   nav:
     - title: 2024
       url: /2024.html
+    - title: Search
+      url: /search.html
     - title: Master website
       url: https://masterbigdata.it/
 

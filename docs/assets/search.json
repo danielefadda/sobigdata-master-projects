@@ -1,0 +1,31 @@
+---
+layout: null
+---
+[
+  {% assign progetti_2024 = site.data.home-cards-2024 %}
+  {% assign progetti_2025 = site.data.home-cards-2025 %}
+  {% assign total_2024 = progetti_2024.size %}
+  {% assign total_2025 = progetti_2025.size %}
+  {% for progetto in progetti_2024 %}
+    {
+      "id": "{{ forloop.index0 }}",
+      "title": {{ progetto.name | jsonify }},
+      "description": {{ progetto.description | jsonify }},
+      "students": {{ progetto.students | join: ", " | jsonify }},
+      "url": {{ progetto.path | jsonify }},
+      "img_url": {{ progetto.img_url | jsonify }},
+      "year": 2024
+    }{% unless forloop.last and total_2025 == 0 %},{% endunless %}
+  {% endfor %}
+  {% for progetto in progetti_2025 %}
+    {
+      "id": "{{ total_2024 | plus: forloop.index0 }}",
+      "title": {{ progetto.name | jsonify }},
+      "description": {{ progetto.description | jsonify }},
+      "students": {{ progetto.students | join: ", " | jsonify }},
+      "url": {{ progetto.path | jsonify }},
+      "img_url": {{ progetto.img_url | jsonify }},
+      "year": 2025
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

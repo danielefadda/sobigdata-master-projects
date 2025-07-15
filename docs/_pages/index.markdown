@@ -37,19 +37,8 @@ header_title: "SoBigData Master projects"
     </a>
 </div>
 
-<div class="container py-1">
-    <div class="row">
-        <div class="col-md-12">
-            <hr>
-            <h3>Courses involved</h3>
-            <ul>
-                <li>BDSCCS – Big Data Sources, crowdsourcing, crowdsensing</li>
-                <li>DMML – Data Mining and Machine Learning</li>
-                <li>IR – Information Retrieval</li>
-                <li>DDI – Data Driven Innovation</li>
-                <li>DVDJ – Data Visualization and Data Journalism</li>
-                <li>TAWM – Text Analysis & Web Mining</li>
-            </ul>
-        </div>
-    </div>
-</div>
+---
+
+### Search for projects
+
+{% include search-lunr.html %}

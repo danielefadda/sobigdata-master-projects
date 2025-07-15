@@ -1,0 +1,48 @@
+<input type="text" id="search-input" placeholder="Type here...">
+<div id="search-results"></div>
+
+<!-- Lunr.js CDN -->
+<script src="assets/js/lunr.js"></script>
+
+<script>
+  fetch('assets/search.json')
+    .then(response => response.json())
+    .then(data => {
+      const idx = lunr(function () {
+        this.ref('id');
+        this.field('title');
+        this.field('description');
+        this.field('students');
+        this.field('year');
+        data.forEach(doc => this.add(doc));
+      });
+
+      document.getElementById('search-input').addEventListener('input', function () {
+        const query = this.value;
+        const results = idx.search(query);
+        const container = document.getElementById('search-results');
+        container.innerHTML = '';
+
+        if (results.length === 0) {
+          container.innerHTML = '<p>No results found</p>';
+          return;
+        }
+
+        results.forEach(result => {
+          const item = data.find(d => d.id === result.ref);
+          const el = document.createElement('div');
+          el.innerHTML = `
+            <div style="display: flex; align-items: flex-start; gap: 1em;">
+<img src="${item.img_url.replace(/^\/+/, '')}" alt="Thumbnail" style="width: 80px; height: 80px; object-fit: cover; border-radius: 6px;">              <div>
+                <h2><a href="${item.url}" target="_blank">${item.title}</a></h2>
+                <p>${item.description}</p>
+                <p>${item.year} | <small><strong>Students:</strong> ${item.students}</small></p>
+              </div>
+            </div>
+            <hr>
+          `;
+          container.appendChild(el);
+        });
+      });
+    });
+</script>
