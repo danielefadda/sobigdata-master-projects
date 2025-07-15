@@ -23,11 +23,9 @@ header_title: "SoBigData Master projects"
 
 <div class="container py-3" id="projects-container">
     <a href="{{site.baseurl}}/2024.html">
-        <div class="row py-3 my-3 project" style="height:150px;" >
+        <div class="row py-3 my-3 project">
                 <div class="col-md-4" >
-                    <div class="col-md-4" >
-                        <div class="project-img"  style="width:150px"><img src="{{site.baseurl}}/assets/images/g1_spot_tv.png" alt="2024"></div>
-                    </div>
+                    <div class="project-img"><img src="{{site.baseurl}}/assets/images/g1_spot_tv.png" alt="2024"></div>
                 </div>
                 <div class="col-md-8">
                     <h2>YEAR 2024</h2>
