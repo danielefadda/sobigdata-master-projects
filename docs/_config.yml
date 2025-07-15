@@ -23,9 +23,7 @@ title: "SoBigData Master Projects"
 subtitle: "LBDAI - SoBigData Master course results"
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Projects developed by the students of the SoBigData Master's course LBDAI at the University of Pisa.
 
 
 # Riportare il github del gruppo di progetto e quello del sito web (se differente).
@@ -57,8 +55,6 @@ navbar:
 
 googlefonts:
   - url: "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
-  - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-  - url: "https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap"
 
 chulapa-skin:
   skin:  "graymor" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
@@ -74,19 +70,13 @@ chulapa-skin:
     headings-font-family: "Rajdhani"
 
 
-#chulapa-skin:
-#  autothemer  :  true
-#  vars:
-#    primary: "darkorange"
-
-
 
 ##################################################
 #    NON modificare la sezione sottostante
 ##################################################
 
 # Build settings
-theme: chulapa-jekyll
+remote_theme: dieghernan/chulapa
 plugins:
   - jekyll-feed
 
@@ -128,8 +118,6 @@ exclude:
  - vendor/ruby/
  - .idea/
 
-include:
-  - .nojekyll
 livereload: true
 
 baseurl: "" # the subpath of your site, e.g. /blog
