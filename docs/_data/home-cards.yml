@@ -1,42 +1,42 @@
 - name: "Spot TV"
   group: 1
-  img_url:  "assets/images/g1_spot_tv.png"
+  img_url:  "/assets/images/g1_spot_tv.png"
   description: "La comunicazione pubblicitaria televisiva dal 1980 a oggi"
   path: "https://hypozeuxis.github.io/g1-2024-website/"
   students: ["Oltiana Asllani","Giorgio Bellante","Denise Botrini","Giorgia De Re","Axel Perini","Dimitri Viccari"]
 - name: "Youtube e i podcast: l'ascesa nella nuova era di contenuti digitali"
   group: 2
-  img_url:  "assets/images/podcast.png"
+  img_url:  "/assets/images/podcast.png"
   description: "Come è cambiato il mondo dei podcast negli ultimi 10 anni?"
   path: "https://mbd2.github.io/g2-2024-website/"
   students: ["Ivano Carta","Marco Serafino","Luca Robimarga","Veronica Pippi","Lorenzo Vila","Fiorello Viteritti"]
 - name: "AvvoChat"
   group: 3
-  img_url:  "assets/images/avvochat.png"
+  img_url:  "/assets/images/avvochat.png"
   description: "L'AI giuridica che risponde ai dubbi legali degli italiani"
   path: "https://ftomasso.github.io//g3-2024-website/paginaapplicazione"
   students: ["Francesca Vatteroni","Angela Cofrancesco","Pasquale Maritato","Roberta Felice","Fabrizio Tomasso","Andrea Alessandrelli "]
 - name: "Nasci ingegnere muori data scientist"
   group: 5
-  img_url:  "assets/images/G5_img.jpg"
+  img_url:  "/assets/images/G5_img.jpg"
   description: "Analisi delle offerte di lavoro del mondo tech su Linkedin"
   path: "https://jacopodellabartola.github.io/g5-2024-website/"
   students: ["Jacopo della Bartola","Giulio Faraoni","Donatella Mauro","Martina Podestà","Simone Proto","Giulia Segurini"]
 - name: 'Non si molla… e che Dio ci benedica!'
   group: 6
-  img_url:  "assets/images/agricoltura.jpg"
+  img_url:  "/assets/images/agricoltura.jpg"
   description: "Analisi delle proteste agricole nel contesto italiano"
   path: "https://rconti95.github.io/g6-2024-website/"
   students: ["Antonio Donnangelo","Beatrice Ferrigno","Diego Palombi","Gianluca Regè","Riccardo Conti"]
 - name: "Birra, fernandito e pallone"
   group: 7
-  img_url:  "assets/images/calcio.jpg"
+  img_url:  "/assets/images/calcio.jpg"
   description: "A linguistic and social network analysis on the role of football as geographical, cultural and social glue using Twitch data"
   path: "https://ramiropredassi.github.io/g7-2024-website/"
   students: ["Antonio Federico Barbano","Luciana Fazio","Daniela Lorieri","Ramiro Predassi","Miriana Somenzi"]
 - name: "CraveIt"
   group: 8
-  img_url:  "assets/images/pasta.jpg"
+  img_url:  "/assets/images/pasta.jpg"
   description: "What's the best carbonara in Rome?"
   path: "https://andrevitali.github.io/g8-2024-website/"
   students: ["Luca Antonini","Francesco Peria","Ludovica Santinelli","Maria Paola Sforza Fogliani","Andrea Vitali"]

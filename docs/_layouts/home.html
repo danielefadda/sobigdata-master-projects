@@ -11,11 +11,7 @@ layout: minimal
 
         </aside>
         <article id="maincontent" class="col-lg-8 mt-3 e-content">
-            {% if page.show_sidetoc %}
 
-            {% include components/sidetoc.html %}
-
-            {% endif %}
             {% if page.show_toc %}
             {% assign h_min = page.h_min | default: 2 %}
             {% assign h_max = page.h_max | default: 4 %}

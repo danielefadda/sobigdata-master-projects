@@ -32,12 +32,6 @@ github_repo:
   - name: "SoBigData LBDAI projects"
     url: "https://github.com/danielefadda/sobigdata-master-projects"
 
-
-
-
-
-
-
 navbar:
   style :  dual #non modificare
   brand: # è il titolo del sito e funziona da bottone (tipicamente per la homepage).
@@ -79,6 +73,8 @@ chulapa-skin:
 remote_theme: dieghernan/chulapa
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
 
 collections:
   pages:
@@ -120,8 +116,8 @@ exclude:
 
 livereload: true
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/sobigdata-master-projects" # the subpath of your site, e.g. /blog
+url: "https://danielefadda.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 #github_username:  jekyll
 

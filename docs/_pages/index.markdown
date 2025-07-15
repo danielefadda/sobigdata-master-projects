@@ -5,11 +5,12 @@
 layout: home
 title: "Home"
 show_sidetoc: true
-subtitle: "LBDAI - SoBigData Master course 2024"
+subtitle: "LBDAI - SoBigData Master course"
 header_type: base #base, post, hero,image, splash
 header_img: assets/images/header.svg
 header_title: "SoBigData Master projects"
 ---
+
 <div class="container py-1">
 <div class="row">
         <div class="col-md-12">
@@ -18,36 +19,25 @@ header_title: "SoBigData Master projects"
     </div>
 </div>
 
+[//]: # (Years)
+
 <div class="container py-3" id="projects-container">
-        {% for image in site.data.home-cards %}
-            <a href="{{image.path}}" target="_blank">
-                <div class="row py-3 my-3 project" >
-                        <div class="col-md-4">
-                            <div class="project-img"><img src="{{site.baseurl}}{{ image.img_url}}" alt="{{ image.name }}" style="width:100%"></div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="project-body">
-                                <h5>{{ image.group }}. {{ image.name }}</h5>
-                                <p>{{ image.description }}</p>
-                                {% assign students = image.students | split: "," %}
-                                <p class="students">
-
-                                <em><strong>Students</strong>:
-                                    {% for student in students %}
-                                        {% if forloop.last %}
-                                            <span>{{ student | strip |  replace: '[', ''  |  replace: ']', '' |  replace: '"', '' }}.</span>
-                                        {% else %}
-                                            <span>{{ student | strip |  replace: '[', ''  |  replace: ']', '' |  replace: '"', '' }}, </span>
-                                        {% endif %}
-                                    {% endfor %}
-                                </em></p>
-                            </div>
-                        </div>
+    <a href="{{site.baseurl}}/2024.html">
+        <div class="row py-3 my-3 project" style="height:150px;" >
+                <div class="col-md-4" >
+                    <div class="col-md-4" >
+                        <div class="project-img"  style="width:150px"><img src="{{site.baseurl}}/assets/images/g1_spot_tv.png" alt="2024"></div>
+                    </div>
                 </div>
-            </a>
-        {% endfor %}
+                <div class="col-md-8">
+                    <h2>YEAR 2024</h2>
+                    <p class="students">
+                        <strong>Teachers:</strong> Roberto Trasarti, Anna Monreale, Riccardo Guidotti, Paolo Ferragina, Daniele Fadda
+                    </p>
+                </div>
+        </div>
+    </a>
 </div>
-
 
 <div class="container py-1">
     <div class="row">
