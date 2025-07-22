@@ -2,29 +2,29 @@
   group: 1
   img_url:  "/assets/images/g1_spot_tv.png"
   description: "???"
-  path: "https://hypozeuxis.github.io/g1-2024-website/"
-  students: ["Eterno Gioele", "Fida Francesco", "Padula Giancarlo", "Papaleo Elvira", "Scordino Domenico", "Shi Guangrui"]
+  path: "https://scordinod1994.github.io/g1-2025-website/"
+  students: ["Gioele Eterno", "Francesco Fida", "Giancarlo Padula", "Elvira Papaleo", "Domenico Scordino", "Guangrui Shi"]
 - name: "Pubblicazioni mediche"
   group: 2
   img_url:  "/assets/images/podcast.png"
   description: "???"
-  path: "https://mbd2.github.io/g2-2024-website/"
+  path: "https://giovannaandreucci.github.io/g2-2025-website/"
   students: ["Andreucci Giovanna", "Arioli Jacopo", "Baronchelli Davide", "Conte Emanuele", "Gullace Viola", "Fonderico Mattia", "Bianchini Massimiliano"]
 - name: "Cyber Attacks"
   group: 4
   img_url:  "/assets/images/avvochat.png"
   description: "???"
-  path: "https://ftomasso.github.io//g3-2024-website/paginaapplicazione"
+  path: "https://balzu.github.io/g4-2025-website/"
   students: ["Amati Emanuele", "Balzano Francesco", "Conte Davide", "Lorusso Francesca", "Scudiero Lidia"]
 - name: "Vinted"
   group: 5
   img_url:  "/assets/images/G5_img.jpg"
   description: "???"
-  path: "https://jacopodellabartola.github.io/g5-2024-website/"
+  path: "https://bianich.github.io/g5-2025-website/"
   students: ["Bonini Simone", "Bianchi Thomas", "Giannoni Beatrice", "Grassi Francesco", "Marti' Aguirre Stefano", "Pizzi Costanza"]
 - name: 'Climate Change'
   group: 6
   img_url:  "/assets/images/agricoltura.jpg"
   description: "???"
-  path: "https://rconti95.github.io/g6-2024-website/"
+  path: "https://pio-code.github.io/g6-2025-website/"
   students: ["Aghaalikhani Milad", "Buonanno Giuseppe", "Cuppone Francesca", "Landolfo Alessandro Pio", "Liuzzo Scorpo Rosario", "Wimmer Sarah"]
