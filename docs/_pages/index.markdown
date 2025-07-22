@@ -19,7 +19,21 @@ header_title: "SoBigData Master projects"
     </div>
 </div>
 
-[//]: # (Years)
+<div class="container py-3" id="projects-container">
+    <a href="{{site.baseurl}}/2025.html">
+        <div class="row py-3 my-3 project">
+                <div class="col-md-4" >
+                    <div class="project-img"><img src="{{site.baseurl}}/assets/images/g1_videogame.png" alt="2025"></div>
+                </div>
+                <div class="col-md-8">
+                    <h2>YEAR 2025</h2>
+                    <p class="students">
+                        <strong>Teachers:</strong> Roberto Trasarti, Anna Monreale, Riccardo Guidotti, Daniele Fadda
+                    </p>
+                </div>
+        </div>
+    </a>
+</div>
 
 <div class="container py-3" id="projects-container">
     <a href="{{site.baseurl}}/2024.html">

@@ -1,19 +1,19 @@
 - name: "Gamebreaking"
   group: 1
   img_url:  "/assets/images/g1_videogame.png"
-  description:  "What makes a game successful?"
+  description:  "Unlocking the data behind a videogame's success"
   path: "https://scordinod1994.github.io/g1-2025-website/"
-  students: ["Gioele Eterno", "Francesco Fida", "Giancarlo Padula", "Elvira Papaleo", "Domenico Scordino", "Guangrui Shi"]
+  students: ["Gioele Eterno", "Giancarlo Padula", "Elvira Papaleo", "Domenico Scordino", "Guangrui Shi"]
 - name: "Pubblicazioni mediche"
   group: 2
   img_url:  "/assets/images/g0_placeholder.png"
   description: "???"
   path: "https://giovannaandreucci.github.io/g2-2025-website/"
   students: ["Andreucci Giovanna", "Arioli Jacopo", "Baronchelli Davide", "Conte Emanuele", "Gullace Viola", "Fonderico Mattia", "Bianchini Massimiliano"]
-- name: "Cyber Attacks"
+- name: "The italian Job of Cyber Crime"
   group: 4
-  img_url:  "/assets/images/g0_placeholder.png"
-  description: "???"
+  img_url:  "/assets/images/g4_cyberattacks.jpg"
+  description: "Data, Emotions, and Investments in the Cyber War"
   path: "https://balzu.github.io/g4-2025-website/"
   students: ["Amati Emanuele", "Balzano Francesco", "Conte Davide", "Lorusso Francesca", "Scudiero Lidia"]
 - name: "Vinted"
