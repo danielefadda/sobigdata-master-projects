@@ -1,0 +1,1079 @@
+[
+  {
+    "name": "Artiodactyla",
+    "children": [
+      {
+        "name": "Bovidae",
+        "children": [
+          {
+            "name": "Ammotrago",
+            "emoji": "🐐",
+            "image": "/assets/images/ammotrago.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Bisonte europeo",
+            "emoji": "🐐",
+            "image": "/assets/images/bisonte_europeo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Tur del Caucaso occidentale",
+            "emoji": "🐐",
+            "image": "/assets/images/tur_del_caucaso_occidentale.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Stambecco delle Alpi",
+            "emoji": "🐐",
+            "image": "/assets/images/stambecco_delle_alpi.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Stambecco iberico",
+            "emoji": "🐐",
+            "image": "/assets/images/stambecco_iberico.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Gazzella gozzuta",
+            "emoji": "🐐",
+            "image": "/assets/images/gazzella_gozzuta.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Muflone",
+            "emoji": "🐐",
+            "image": "/assets/images/muflone.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Bue muschiato",
+            "emoji": "🐐",
+            "image": "/assets/images/bue_muschiato.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Camoscio dei Pirenei",
+            "emoji": "🐐",
+            "image": "/assets/images/camoscio_dei_pirenei.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Camoscio delle Alpi",
+            "emoji": "🐐",
+            "image": "/assets/images/camoscio_delle_alpi.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Cervidae",
+        "children": [
+          {
+            "name": "Alce",
+            "emoji": "🦌",
+            "image": "/assets/images/alce.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Capriolo",
+            "emoji": "🦌",
+            "image": "/assets/images/capriolo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Cervo nobile",
+            "emoji": "🦌",
+            "image": "/assets/images/cervo_nobile.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Sika",
+            "emoji": "🦌",
+            "image": "/assets/images/sika.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Daino",
+            "emoji": "🦌",
+            "image": "/assets/images/daino.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Muntjak della Cina",
+            "emoji": "🦌",
+            "image": "/assets/images/muntjak_della_cina.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Renna",
+            "emoji": "🦌",
+            "image": "/assets/images/renna.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Suidae",
+        "children": [
+          {
+            "name": "Cinghiale",
+            "emoji": "🐗",
+            "image": "/assets/images/cinghiale.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Carnivora",
+    "children": [
+      {
+        "name": "Canidae",
+        "children": [
+          {
+            "name": "Sciacallo dorato",
+            "emoji": "🐺",
+            "image": "/assets/images/sciacallo_dorato.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Lupo grigio",
+            "emoji": "🐺",
+            "image": "/assets/images/lupo_grigio.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Cane procione",
+            "emoji": "🐺",
+            "image": "/assets/images/cane_procione.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Volpe corsac",
+            "emoji": "🐺",
+            "image": "/assets/images/volpe_corsac.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Volpe artica",
+            "emoji": "🐺",
+            "image": "/assets/images/volpe_artica.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Volpe rossa",
+            "emoji": "🐺",
+            "image": "/assets/images/volpe_rossa.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Felidae",
+        "children": [
+          {
+            "name": "Gatto della giungla",
+            "emoji": "🐱",
+            "image": "/assets/images/gatto_della_giungla.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Gatto selvatico",
+            "emoji": "🐱",
+            "image": "/assets/images/gatto_selvatico.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Lince eurasiatica",
+            "emoji": "🐱",
+            "image": "/assets/images/lince_eurasiatica.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Lince iberica",
+            "emoji": "🐱",
+            "image": "/assets/images/lince_iberica.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Herpestidae",
+        "children": [
+          {
+            "name": "Mangusta egiziana",
+            "emoji": "🦁",
+            "image": "/assets/images/mangusta_egiziana.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Hyaenidae",
+        "children": [
+          {
+            "name": "Iena striata",
+            "emoji": "🦴",
+            "image": "/assets/images/iena_striata.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Mustelidae",
+        "children": [
+          {
+            "name": "Ghiottone",
+            "emoji": "🦦",
+            "image": "/assets/images/ghiottone.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Lontra europea",
+            "emoji": "🦦",
+            "image": "/assets/images/lontra_europea.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Faina",
+            "emoji": "🦦",
+            "image": "/assets/images/faina.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Martora",
+            "emoji": "🦦",
+            "image": "/assets/images/martora.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Tasso asiatico",
+            "emoji": "🦦",
+            "image": "/assets/images/tasso_asiatico.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Tasso europeo",
+            "emoji": "🦦",
+            "image": "/assets/images/tasso_europeo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Ermellino",
+            "emoji": "🦦",
+            "image": "/assets/images/ermellino.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Puzzola delle steppe",
+            "emoji": "🦦",
+            "image": "/assets/images/puzzola_delle_steppe.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Visone europeo",
+            "emoji": "🦦",
+            "image": "/assets/images/visone_europeo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Donnola",
+            "emoji": "🦦",
+            "image": "/assets/images/donnola.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Puzzola europea",
+            "emoji": "🦦",
+            "image": "/assets/images/puzzola_europea.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Puzzola marmorizzata",
+            "emoji": "🦦",
+            "image": "/assets/images/puzzola_marmorizzata.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Procyonidae",
+        "children": [
+          {
+            "name": "Procione",
+            "emoji": "🦝",
+            "image": "/assets/images/procione.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Ursidae",
+        "children": [
+          {
+            "name": "Orso bruno",
+            "emoji": "🐻",
+            "image": "/assets/images/orso_bruno.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Orso polare",
+            "emoji": "🐻",
+            "image": "/assets/images/orso_polare.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Viverridae",
+        "children": [
+          {
+            "name": "Genetta comune",
+            "emoji": "🐾",
+            "image": "/assets/images/genetta_comune.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Eulipotyphla",
+    "children": [
+      {
+        "name": "Erinaceidae",
+        "children": [
+          {
+            "name": "Riccio algerino",
+            "emoji": "🦔",
+            "image": "/assets/images/riccio_algerino.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Riccio dal petto bianco meridionale",
+            "emoji": "🦔",
+            "image": "/assets/images/riccio_dal_petto_bianco_meridionale.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Riccio europeo",
+            "emoji": "🦔",
+            "image": "/assets/images/riccio_europeo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Riccio orientale",
+            "emoji": "🦔",
+            "image": "/assets/images/riccio_orientale.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Riccio dalle orecchie lunghe",
+            "emoji": "🦔",
+            "image": "/assets/images/riccio_dalle_orecchie_lunghe.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Soricidae",
+        "children": [
+          {
+            "name": "Crocidura bicolore",
+            "emoji": "🌀",
+            "image": "/assets/images/crocidura_bicolore.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Crocidura rossiccia",
+            "emoji": "🌀",
+            "image": "/assets/images/crocidura_rossiccia.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Crocidura minore",
+            "emoji": "🌀",
+            "image": "/assets/images/crocidura_minore.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Toporagno d'acqua mediterraneo",
+            "emoji": "🌀",
+            "image": "/assets/images/toporagno_dacqua_mediterraneo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Toporagno d'acqua",
+            "emoji": "🌀",
+            "image": "/assets/images/toporagno_dacqua.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Toporagno d'acqua di Miller",
+            "emoji": "🌀",
+            "image": "/assets/images/toporagno_dacqua_di_miller.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Toporagno alpino",
+            "emoji": "🌀",
+            "image": "/assets/images/toporagno_alpino.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Toporagno di Valais",
+            "emoji": "🌀",
+            "image": "/assets/images/toporagno_di_valais.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Toporagno comune",
+            "emoji": "🌀",
+            "image": "/assets/images/toporagno_comune.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Toporagno di Laxmann",
+            "emoji": "🌀",
+            "image": "/assets/images/toporagno_di_laxmann.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Toporagno coronato",
+            "emoji": "🌀",
+            "image": "/assets/images/toporagno_coronato.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Toporagno della taiga",
+            "emoji": "🌀",
+            "image": "/assets/images/toporagno_della_taiga.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Toporagno nano",
+            "emoji": "🌀",
+            "image": "/assets/images/toporagno_nano.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Toporagno minimo",
+            "emoji": "🌀",
+            "image": "/assets/images/toporagno_minimo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Mustiolo",
+            "emoji": "🌀",
+            "image": "/assets/images/mustiolo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Talpidae",
+        "children": [
+          {
+            "name": "Desman dei Pirenei",
+            "emoji": "🦡",
+            "image": "/assets/images/desman_dei_pirenei.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Talpa cieca",
+            "emoji": "🦡",
+            "image": "/assets/images/talpa_cieca.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Talpa europea",
+            "emoji": "🦡",
+            "image": "/assets/images/talpa_europea.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Talpa iberica",
+            "emoji": "🦡",
+            "image": "/assets/images/talpa_iberica.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Talpa romana",
+            "emoji": "🦡",
+            "image": "/assets/images/talpa_romana.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lagomorpha",
+    "children": [
+      {
+        "name": "Leporidae",
+        "children": [
+          {
+            "name": "Lepre del Capo",
+            "emoji": "🐇",
+            "image": "/assets/images/lepre_del_capo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Lepre di Castroviejo",
+            "emoji": "🐇",
+            "image": "/assets/images/lepre_di_castroviejo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Lepre europea",
+            "emoji": "🐇",
+            "image": "/assets/images/lepre_europea.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Lepre di Granada",
+            "emoji": "🐇",
+            "image": "/assets/images/lepre_di_granada.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Lepre variabile",
+            "emoji": "🐇",
+            "image": "/assets/images/lepre_variabile.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Coniglio europeo",
+            "emoji": "🐇",
+            "image": "/assets/images/coniglio_europeo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Perissodactyla",
+    "children": [
+      {
+        "name": "Equidae",
+        "children": [
+          {
+            "name": "Onagro",
+            "emoji": "🐎",
+            "image": "/assets/images/onagro.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Primates",
+    "children": [
+      {
+        "name": "Cercopithecidae",
+        "children": [
+          {
+            "name": "Bertuccia",
+            "emoji": "🧠",
+            "image": "/assets/images/bertuccia.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rodentia",
+    "children": [
+      {
+        "name": "Castoridae",
+        "children": [
+          {
+            "name": "Castoro europeo",
+            "emoji": "🦫",
+            "image": "/assets/images/castoro_europeo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Cricetidae",
+        "children": [
+          {
+            "name": "Arvicola acquatica europea",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_acquatica_europea.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola di Scherman",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_di_scherman.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola delle nevi",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_delle_nevi.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Criceto comune",
+            "emoji": "🐹",
+            "image": "/assets/images/criceto_comune.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Lemming-talpa",
+            "emoji": "🐹",
+            "image": "/assets/images/lemming-talpa.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Lemming norvegese",
+            "emoji": "🐹",
+            "image": "/assets/images/lemming_norvegese.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Criceto di Brandt",
+            "emoji": "🐹",
+            "image": "/assets/images/criceto_di_brandt.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola agreste",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_agreste.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola campestre",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_campestre.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola di Cabrera",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_di_cabrera.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola del Daghestan",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_del_daghestan.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola mediterranea",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_mediterranea.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola di Gerbe",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_di_gerbe.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola dell'Europa orientale",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_delleuropa_orientale.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola lusitana",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_lusitana.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola di Major",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_di_major.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola di Fatio",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_di_fatio.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola della tundra",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_della_tundra.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola sociale",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_sociale.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola sotterranea",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_sotterranea.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola rossastra",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_rossastra.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola groenlandica",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_groenlandica.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Arvicola boreale",
+            "emoji": "🐹",
+            "image": "/assets/images/arvicola_boreale.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Lemming dei boschi",
+            "emoji": "🐹",
+            "image": "/assets/images/lemming_dei_boschi.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Ratto muschiato",
+            "emoji": "🐹",
+            "image": "/assets/images/ratto_muschiato.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Dipodidae",
+        "children": [
+          {
+            "name": "Grande gerboa",
+            "emoji": "🐀",
+            "image": "/assets/images/grande_gerboa.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Betulla del nord",
+            "emoji": "🐀",
+            "image": "/assets/images/betulla_del_nord.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Betulla di Strand",
+            "emoji": "🐀",
+            "image": "/assets/images/betulla_di_strand.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Betulla del sud",
+            "emoji": "🐀",
+            "image": "/assets/images/betulla_del_sud.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Gerboa a tre dita dalla coda spessa",
+            "emoji": "🐀",
+            "image": "/assets/images/gerboa_a_tre_dita_dalla_coda_spessa.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Echimyidae",
+        "children": [
+          {
+            "name": "Nutria",
+            "emoji": "🐀",
+            "image": "/assets/images/nutria.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Gliridae",
+        "children": [
+          {
+            "name": "Driomio",
+            "emoji": "😴",
+            "image": "/assets/images/driomio.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Quercino",
+            "emoji": "😴",
+            "image": "/assets/images/quercino.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Ghiro",
+            "emoji": "😴",
+            "image": "/assets/images/ghiro.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Moscardino",
+            "emoji": "😴",
+            "image": "/assets/images/moscardino.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Hystricidae",
+        "children": [
+          {
+            "name": "Istrice",
+            "emoji": "🐀",
+            "image": "/assets/images/istrice.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Istrice indiano",
+            "emoji": "🐀",
+            "image": "/assets/images/istrice_indiano.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Muridae",
+        "children": [
+          {
+            "name": "Topo selvatico a strisce",
+            "emoji": "🐭",
+            "image": "/assets/images/topo_selvatico_a_strisce.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Topo selvatico alpino",
+            "emoji": "🐭",
+            "image": "/assets/images/topo_selvatico_alpino.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Topo selvatico dal collo giallo",
+            "emoji": "🐭",
+            "image": "/assets/images/topo_selvatico_dal_collo_giallo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Topo selvatico baffuto",
+            "emoji": "🐭",
+            "image": "/assets/images/topo_selvatico_baffuto.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Topo selvatico del Mar Nero",
+            "emoji": "🐭",
+            "image": "/assets/images/topo_selvatico_del_mar_nero.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Topo selvatico",
+            "emoji": "🐭",
+            "image": "/assets/images/topo_selvatico.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Topo selvatico pigmeo",
+            "emoji": "🐭",
+            "image": "/assets/images/topo_selvatico_pigmeo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Topo selvatico di Witherby",
+            "emoji": "🐭",
+            "image": "/assets/images/topo_selvatico_di_witherby.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Gerbillo di Tristram",
+            "emoji": "🐭",
+            "image": "/assets/images/gerbillo_di_tristram.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Topolino delle risaie",
+            "emoji": "🐭",
+            "image": "/assets/images/topolino_delle_risaie.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Topo macedone",
+            "emoji": "🐭",
+            "image": "/assets/images/topo_macedone.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Topo domestico",
+            "emoji": "🐭",
+            "image": "/assets/images/topo_domestico.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Topo delle steppe",
+            "emoji": "🐭",
+            "image": "/assets/images/topo_delle_steppe.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Topo algerino",
+            "emoji": "🐭",
+            "image": "/assets/images/topo_algerino.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Ratto delle chiaviche",
+            "emoji": "🐭",
+            "image": "/assets/images/ratto_delle_chiaviche.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Ratto nero",
+            "emoji": "🐭",
+            "image": "/assets/images/ratto_nero.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Grande gerbillo",
+            "emoji": "🐭",
+            "image": "/assets/images/grande_gerbillo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Sciuridae",
+        "children": [
+          {
+            "name": "Scoiattolo berbero",
+            "emoji": "🐿️",
+            "image": "/assets/images/scoiattolo_berbero.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Marmotta bobak",
+            "emoji": "🐿️",
+            "image": "/assets/images/marmotta_bobak.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Marmotta delle Alpi",
+            "emoji": "🐿️",
+            "image": "/assets/images/marmotta_delle_alpi.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Scoiattolo volante siberiano",
+            "emoji": "🐿️",
+            "image": "/assets/images/scoiattolo_volante_siberiano.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Scoiattolo del Caucaso",
+            "emoji": "🐿️",
+            "image": "/assets/images/scoiattolo_del_caucaso.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Scoiattolo grigio",
+            "emoji": "🐿️",
+            "image": "/assets/images/scoiattolo_grigio.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Scoiattolo rosso",
+            "emoji": "🐿️",
+            "image": "/assets/images/scoiattolo_rosso.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Citello europeo",
+            "emoji": "🐿️",
+            "image": "/assets/images/citello_europeo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Citello giallo",
+            "emoji": "🐿️",
+            "image": "/assets/images/citello_giallo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Citello rosso",
+            "emoji": "🐿️",
+            "image": "/assets/images/citello_rosso.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Citello del Caucaso",
+            "emoji": "🐿️",
+            "image": "/assets/images/citello_del_caucaso.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Citello pigmeo",
+            "emoji": "🐿️",
+            "image": "/assets/images/citello_pigmeo.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Citello maculato",
+            "emoji": "🐿️",
+            "image": "/assets/images/citello_maculato.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Chipmunk siberiano",
+            "emoji": "🐿️",
+            "image": "/assets/images/chipmunk_siberiano.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      },
+      {
+        "name": "Spalacidae",
+        "children": [
+          {
+            "name": "Ratto-talpa delle sabbie",
+            "emoji": "🕳️",
+            "image": "/assets/images/ratto-talpa_delle_sabbie.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Ratto-talpa minore",
+            "emoji": "🕳️",
+            "image": "/assets/images/ratto-talpa_minore.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Ratto-talpa maggiore",
+            "emoji": "🕳️",
+            "image": "/assets/images/ratto-talpa_maggiore.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          },
+          {
+            "name": "Ratto-talpa di Podolsk",
+            "emoji": "🕳️",
+            "image": "/assets/images/ratto-talpa_di_podolsk.jpg",
+            "chart": "/assets/charts/dashboard_specie_img.json"
+          }
+        ]
+      }
+    ]
+  }
+]

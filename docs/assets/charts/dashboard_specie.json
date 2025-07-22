@@ -1,0 +1,339 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300,
+      "stroke": null
+    }
+  },
+  "hconcat": [
+    {
+      "vconcat": [
+        {
+          "mark": {
+            "type": "rect",
+            "stroke": "white",
+            "strokeWidth": 1
+          },
+          "encoding": {
+            "color": {
+              "field": "scenario",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "SSP2",
+                  "SSP3"
+                ],
+                "range": [
+                  "darkorange",
+                  "firebrick"
+                ]
+              },
+              "type": "ordinal"
+            },
+            "opacity": {
+              "condition": {
+                "param": "year_scenario_selector",
+                "value": 1.0,
+                "empty": false
+              },
+              "value": 0.3
+            },
+            "x": {
+              "axis": {
+                "domain": false,
+                "labelAngle": 0,
+                "title": ""
+              },
+              "field": "year",
+              "type": "ordinal"
+            },
+            "y": {
+              "axis": {
+                "domain": false,
+                "labelAngle": 0,
+                "orient": "right",
+                "title": ""
+              },
+              "field": "scenario",
+              "type": "ordinal"
+            }
+          },
+          "height": 50,
+          "name": "view_7",
+          "title": "Select a scenario",
+          "width": 150
+        },
+        {
+          "mark": {
+            "type": "image",
+            "height": 200,
+            "width": 300
+          },
+          "encoding": {
+            "url": {
+              "field": "image_url",
+              "type": "nominal"
+            },
+            "x": {
+              "axis": null,
+              "field": "x",
+              "scale": {
+                "domain": [
+                  0,
+                  1
+                ]
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "axis": null,
+              "field": "y",
+              "scale": {
+                "domain": [
+                  0,
+                  1
+                ]
+              },
+              "type": "quantitative"
+            }
+          },
+          "height": 230,
+          "transform": [
+            {
+              "filter": {
+                "param": "year_scenario_selector",
+                "empty": false
+              }
+            },
+            {
+              "calculate": "0.5",
+              "as": "x"
+            },
+            {
+              "calculate": "0.5",
+              "as": "y"
+            }
+          ],
+          "width": 300
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "middle",
+            "dx": 0,
+            "dy": 0
+          },
+          "encoding": {
+            "text": {
+              "field": "label",
+              "type": "nominal"
+            },
+            "x": {
+              "axis": null,
+              "field": "x",
+              "scale": {
+                "domain": [
+                  0,
+                  1
+                ]
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "axis": null,
+              "field": "y",
+              "scale": {
+                "domain": [
+                  0,
+                  1
+                ]
+              },
+              "type": "quantitative"
+            }
+          },
+          "height": 10,
+          "transform": [
+            {
+              "filter": {
+                "param": "year_scenario_selector",
+                "empty": false
+              }
+            },
+            {
+              "calculate": "0.5",
+              "as": "x"
+            },
+            {
+              "calculate": "0.5",
+              "as": "y"
+            },
+            {
+              "calculate": "((datum.year + ' - ') + datum.scenario)",
+              "as": "label"
+            }
+          ],
+          "width": 300
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "bar"
+      },
+      "encoding": {
+        "x": {
+          "axis": {
+            "labelAngle": 0
+          },
+          "field": "suitability",
+          "title": "",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "count",
+          "scale": {
+            "domain": [
+              0,
+              4.3
+            ]
+          },
+          "title": "",
+          "type": "quantitative"
+        }
+      },
+      "height": 300,
+      "title": "",
+      "transform": [
+        {
+          "filter": {
+            "param": "year_scenario_selector",
+            "empty": false
+          }
+        }
+      ],
+      "width": 200
+    }
+  ],
+  "data": {
+    "name": "data-9b51633d001156c5183c8a7d06772d91"
+  },
+  "params": [
+    {
+      "name": "year_scenario_selector",
+      "select": {
+        "type": "point",
+        "fields": [
+          "year",
+          "scenario"
+        ],
+        "clear": "mouseup",
+        "on": "mouseover"
+      },
+      "value": [
+        {
+          "year": 2030,
+          "scenario": "SSP2"
+        }
+      ],
+      "views": [
+        "view_7"
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-9b51633d001156c5183c8a7d06772d91": [
+      {
+        "year": 2030,
+        "scenario": "SSP2",
+        "suitability": "idoneo",
+        "count": 4.3,
+        "image_url": "https://placehold.co/300x200?text=2030_SSP2"
+      },
+      {
+        "year": 2030,
+        "scenario": "SSP2",
+        "suitability": "non idoneo",
+        "count": 2.5,
+        "image_url": "https://placehold.co/300x200?text=2030_SSP2"
+      },
+      {
+        "year": 2050,
+        "scenario": "SSP2",
+        "suitability": "idoneo",
+        "count": 4.0,
+        "image_url": "https://placehold.co/300x200?text=2050_SSP2"
+      },
+      {
+        "year": 2050,
+        "scenario": "SSP2",
+        "suitability": "non idoneo",
+        "count": 2.8,
+        "image_url": "https://placehold.co/300x200?text=2050_SSP2"
+      },
+      {
+        "year": 2100,
+        "scenario": "SSP2",
+        "suitability": "idoneo",
+        "count": 3.5,
+        "image_url": "https://placehold.co/300x200?text=2100_SSP2"
+      },
+      {
+        "year": 2100,
+        "scenario": "SSP2",
+        "suitability": "non idoneo",
+        "count": 3.2,
+        "image_url": "https://placehold.co/300x200?text=2100_SSP2"
+      },
+      {
+        "year": 2030,
+        "scenario": "SSP3",
+        "suitability": "idoneo",
+        "count": 3.9,
+        "image_url": "https://placehold.co/300x200?text=2030_SSP3"
+      },
+      {
+        "year": 2030,
+        "scenario": "SSP3",
+        "suitability": "non idoneo",
+        "count": 2.9,
+        "image_url": "https://placehold.co/300x200?text=2030_SSP3"
+      },
+      {
+        "year": 2050,
+        "scenario": "SSP3",
+        "suitability": "idoneo",
+        "count": 3.4,
+        "image_url": "https://placehold.co/300x200?text=2050_SSP3"
+      },
+      {
+        "year": 2050,
+        "scenario": "SSP3",
+        "suitability": "non idoneo",
+        "count": 3.3,
+        "image_url": "https://placehold.co/300x200?text=2050_SSP3"
+      },
+      {
+        "year": 2100,
+        "scenario": "SSP3",
+        "suitability": "idoneo",
+        "count": 2.8,
+        "image_url": "https://placehold.co/300x200?text=2100_SSP3"
+      },
+      {
+        "year": 2100,
+        "scenario": "SSP3",
+        "suitability": "non idoneo",
+        "count": 3.9,
+        "image_url": "https://placehold.co/300x200?text=2100_SSP3"
+      }
+    ]
+  }
+}

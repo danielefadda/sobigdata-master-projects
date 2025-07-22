@@ -1,0 +1,129 @@
+
+<style>
+    #tree-container {
+    /*width: 320px;*/
+    height: 100vh;
+    /*position: fixed;*/
+    top: 62px;
+    /*left: 0;*/
+    /*background-color: wheat;*/
+    margin-bottom: 0;
+    z-index: 1000;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+        max-height: 55vh;
+}
+    #tree-container ul {
+        list-style-type: none;
+        padding-left: 1rem;
+        margin: 0;
+        border-left: 1px solid #ccc;
+        font-size: 0.75rem;
+    }
+    #tree-container li {
+        margin: 0.25rem 0;
+    }
+    #tree-container span.toggle {
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        user-select: none;
+        font-weight: 600;
+    }
+    #tree-container span.leaf {
+        cursor: pointer;
+        margin-left: 1.3rem;
+    }
+    #tree-container li ul {
+        display: none;
+    }
+    #tree-container li.expanded > ul {
+        display: block;
+    }
+    #species-info img {
+        width: 150px;
+        margin-bottom: 1rem;
+    }
+    #species-info h3 {
+        margin: 0.2rem 0;
+    }
+    #species-info {
+        display: none;
+    }
+</style>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-4">
+            <div id="tree-container"></div>
+        </div>
+        <div class="col-8">
+            <h2>Species Taxonomy</h2>
+            <p>Click on a species to view its details and chart.</p>
+            <div id="info-container">
+                <div id="species-info">
+                    <h3 id="species-name"></h3>
+                    <img id="species-thumb" src="" alt=""/>
+                    <div id="species-chart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    const taxonomyData = {{ include.data | jsonify }};
+    const baseurl = "{{ site.baseurl }}";
+
+    function buildTree(data) {
+        const ul = document.createElement("ul");
+        data.forEach(item => {
+            const li = document.createElement("li");
+            if (item.children) {
+                const span = document.createElement("span");
+                span.className = "toggle";
+                span.innerHTML = `<i class="fas fa-chevron-right text-primary"></i> ` + item.name;
+                span.onclick = () => {
+                    li.classList.toggle("expanded");
+                    span.innerHTML = `<i class="fas ${li.classList.contains("expanded") ? "fa-chevron-down" : "fa-chevron-right"} text-primary"></i> ` + item.name;
+                };
+                li.appendChild(span);
+                li.appendChild(buildTree(item.children));
+            } else {
+                const span = document.createElement("span");
+                span.className = "leaf";
+                span.textContent = item.name;
+                span.onclick = () => showSpecies(item);
+                li.appendChild(span);
+            }
+            ul.appendChild(li);
+        });
+        return ul;
+    }
+
+    function showSpecies(species) {
+        const infoBox = document.getElementById("species-info");
+        let title = species.emoji ? species.emoji + " " + species.name : species.name;
+        document.getElementById("species-name").textContent = title;
+        document.getElementById("species-thumb").style.display = "none";
+        infoBox.style.display = "block";
+        let chartDiv = document.getElementById('species-chart');
+        chartDiv.innerHTML = "";
+        const barChart = document.createElement('vegachart');
+        barChart.setAttribute('schema-url', `${baseurl}${species.chart}`);
+        barChart.style.width = '100%';
+        barChart.style.height = '400px';
+        chartDiv.appendChild(barChart);
+        setTimeout(() => {
+            parseSchema(barChart).then(schema => vegaEmbed(barChart, schema, {'actions': false}));
+        }, 250);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const container = document.getElementById("tree-container");
+        container.appendChild(buildTree(taxonomyData));
+    });
+</script>
+
+
