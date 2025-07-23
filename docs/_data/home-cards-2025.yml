@@ -4,10 +4,10 @@
   description:  "Unlocking the data behind a videogame's success"
   path: "https://scordinod1994.github.io/g1-2025-website/"
   students: ["Gioele Eterno", "Giancarlo Padula", "Elvira Papaleo", "Domenico Scordino", "Guangrui Shi"]
-- name: "Pubblicazioni mediche"
+- name: "You don't need to be coy, COI!"
   group: 2
-  img_url:  "/assets/images/g0_placeholder.png"
-  description: "???"
+  img_url:  "/assets/images/g2_2025_medical.png"
+  description: "Concerning companies and medical research"
   path: "https://giovannaandreucci.github.io/g2-2025-website/"
   students: ["Andreucci Giovanna", "Arioli Jacopo", "Baronchelli Davide", "Conte Emanuele", "Gullace Viola", "Fonderico Mattia", "Bianchini Massimiliano"]
 - name: "The italian Job of Cyber Crime"
@@ -16,10 +16,10 @@
   description: "Data, Emotions, and Investments in the Cyber War"
   path: "https://balzu.github.io/g4-2025-website/"
   students: ["Amati Emanuele", "Balzano Francesco", "Conte Davide", "Lorusso Francesca", "Scudiero Lidia"]
-- name: "Vinted"
+- name: "Like 2 Resell"
   group: 5
-  img_url:  "/assets/images/g0_placeholder.png"
-  description: "???"
+  img_url:  "/assets/images/g5_2025_Like_2_Resell.jpg"
+  description: "How popularity rules the second hand market"
   path: "https://bianich.github.io/g5-2025-website/"
   students: ["Bonini Simone", "Bianchi Thomas", "Giannoni Beatrice", "Grassi Francesco", "Marti' Aguirre Stefano", "Pizzi Costanza"]
 - name: 'Climate Change'
