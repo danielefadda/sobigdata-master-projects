@@ -22,9 +22,9 @@
   description: "How popularity rules the second hand market"
   path: "https://bianich.github.io/g5-2025-website/"
   students: ["Bonini Simone", "Bianchi Thomas", "Giannoni Beatrice", "Grassi Francesco", "Marti' Aguirre Stefano", "Pizzi Costanza"]
-- name: 'Climate Change'
+- name: 'The Future of European Mammals'
   group: 6
   img_url:  "/assets/images/g0_placeholder.png"
-  description: "???"
+  description: "Climate change, land use and the future of terrestrial wildlife"
   path: "https://pio-code.github.io/g6-2025-website/"
   students: ["Aghaalikhani Milad", "Buonanno Giuseppe", "Cuppone Francesca", "Landolfo Alessandro Pio", "Liuzzo Scorpo Rosario", "Wimmer Sarah"]
